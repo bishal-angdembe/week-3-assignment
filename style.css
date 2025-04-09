@@ -160,14 +160,19 @@ svg {
     justify-content: space-between;
     padding: 10px 16px;
     flex-wrap: wrap;
+    margin: 0px 44px;
+    padding-right: 150px;
   }
   svg {
     display: none;
   }
   .right_side_header3 {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: flex-end;
     list-style: none;
+    font-size: 14px;
+    gap: 5%;
   }
   .box1 {
     padding-top: 13px; /*why auto padding without declaring? */
@@ -175,6 +180,7 @@ svg {
   .box3 {
     width: 50%;
   }
+
   .right_side_header4 {
     list-style: none;
     display: none;
@@ -215,5 +221,8 @@ svg {
   .buttom_footer,
   .top_footer {
     padding: 0px;
+  }
+  .right_side_header3 :first-child {
+    color: blue;
   }
 }
