@@ -1,0 +1,8 @@
+.article{
+    padding:3px;
+    text-align: center;
+    color:  var(--color-blue-600);
+    font-family: sans-serif;
+    font-size: 16px;
+    
+}
